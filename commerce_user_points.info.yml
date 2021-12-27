@@ -1,0 +1,14 @@
+name: Commerce User Points
+type: module
+description: 'Provides User Points functionality with Commerce.'
+package: Commerce (contrib)
+dependencies:
+  - commerce
+configure: commerce_user_points.admin_settings
+
+core_version_requirement: ^8.8.0 || ^9.0
+
+# Information added by Drupal.org packaging script on 2020-06-30
+version: '9.0.0'
+project: 'commerceuserpoints'
+datestamp: 1593528474
